@@ -1,1 +1,6 @@
+from time import sleep
 
+def basic_backround():
+    canvas.create_rectangle(250,530,550,600,fill='black')
+    canvas.create_polygon(250,530,250,600,150,600,250,530,outline='red')
+    canvas.create_polygon(550,530,550,600,650,600,550,530,outline='red')
